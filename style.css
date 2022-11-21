@@ -3,8 +3,8 @@ body {
 }
 
 header {
-	background: #bbbbbb;
-	height: 10%;
+	background: #0000FF;
+	height: 100%;
 }
 
 .caixa {
@@ -13,34 +13,33 @@ header {
 }
 
 
-.teste-img{
-	width: 20%;	
-	padding: 0 0 0 15%;
-	justify-content: center;
-	align-items: center;
+logo-altashabilidades.jpg
+logo-altashabilidades.jpg
 	
 }
-nav {
+
 	position: absolute;
-	top: 110px;
-	right: 100px;
+	top: 20px;
+	right: 60px;
+
 }
 
 nav li {
 	display: inline-block;
-	margin: 30px 10px;
+	margin: 30px 30px;
 }
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color:  #FFFFFF;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 17px;
 	text-decoration: none;
+	font-style: italic;
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #FFFFFF;
 	text-decoration: underline;
 }
 
@@ -128,7 +127,11 @@ td, th {
 
 /* css da página inicial */
 .banner {
-	width:100%;
+	width:25%;
+	width: 20%;	
+	padding: 0 0 0 40%;
+	justify-content: center;
+	align-items: center;
 	
 }
 
@@ -147,14 +150,6 @@ td, th {
 	width: 100%;
 	margin: 0 auto;
 }
-.principalmeio {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 100%;
-	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-}
 
 .principal p {
 	margin: 0 0 1em;
@@ -166,28 +161,6 @@ td, th {
 
 .principal em {
 	font-style: italic;
-}
-
-.conta-bancaria {
-	width: 320px;
-	float: left;
-	margin: 0 20px 20px 5%;
-}
-
-.redes-sociais {
-	padding-top: 5px;
-	
-}
-
-.redes-sociais-conteudo {
-	width: 300px;
-	margin: 0 auto;
-	padding: 10px;
-}
-
-.redes-sociais p {
-	margin: 0 0 2em;
-	text-align: center;
 }
 
 .beneficios {
